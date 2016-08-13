@@ -15,15 +15,17 @@ public class TestStingUtils {
 
         try {
 
-            String fileContent = FileHelper.readFile(fileName);
+            StringHelper sh = new StringHelper();
 
-            fileContent = FileHelper.removeExtendedChars(fileContent);
+            String fileContent = sh.readFile(fileName);
+
+            fileContent = sh.replaceChars(fileContent);
+
+            fileContent = sh.removeExtendedChars(fileContent);
 
             System.out.print(fileContent);
 
             assertTrue("Removed Extended Characters", true);
-
-            //assertEquals("Testing JUnit: Success", str);
         }
         catch(Exception e) {
             fail(String.format("Error reading file [%1$d]", fileName));
