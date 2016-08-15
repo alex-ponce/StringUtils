@@ -20,8 +20,7 @@ public class StringHelper {
         CHAR_MAP.put("Á", "A");
         CHAR_MAP.put("Â", "A");
         CHAR_MAP.put("Ä", "A");
-        CHAR_MAP.put("Æ", "A");
-        CHAR_MAP.put("Æ", "A");
+        CHAR_MAP.put("Æ", "AE");
         CHAR_MAP.put("Å", "A");
         CHAR_MAP.put("Ā", "A");
 
@@ -48,8 +47,7 @@ public class StringHelper {
         CHAR_MAP.put("Ô", "O");
         CHAR_MAP.put("Ö", "O");
         CHAR_MAP.put("Ò", "O");
-        CHAR_MAP.put("Ò", "O");
-        CHAR_MAP.put("Œ", "O");
+        CHAR_MAP.put("Œ", "OE");
         CHAR_MAP.put("Ø", "O");
         CHAR_MAP.put("Ō", "O");
         CHAR_MAP.put("Õ", "O");
@@ -64,7 +62,7 @@ public class StringHelper {
         CHAR_MAP.put("á", "a");
         CHAR_MAP.put("â", "a");
         CHAR_MAP.put("ä", "a");
-        CHAR_MAP.put("æ", "a");
+        CHAR_MAP.put("æ", "ae");
         CHAR_MAP.put("ã", "a");
         CHAR_MAP.put("å", "a");
         CHAR_MAP.put("ā", "a");
@@ -82,7 +80,6 @@ public class StringHelper {
         CHAR_MAP.put("ė", "e");
         CHAR_MAP.put("ę", "e");
 
-
         CHAR_MAP.put("î", "i");
         CHAR_MAP.put("ï", "i");
         CHAR_MAP.put("í", "i");
@@ -94,7 +91,7 @@ public class StringHelper {
         CHAR_MAP.put("ö", "o");
         CHAR_MAP.put("ò", "o");
         CHAR_MAP.put("ó", "o");
-        CHAR_MAP.put("œ", "o");
+        CHAR_MAP.put("œ", "oe");
         CHAR_MAP.put("ø", "o");
         CHAR_MAP.put("ō", "o");
         CHAR_MAP.put("õ", "o");
